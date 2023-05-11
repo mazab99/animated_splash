@@ -115,7 +115,7 @@ class _HomeScreenState extends State<HomeScreen>
                 ClipRRect(
                   borderRadius: BorderRadius.circular(60),
                   child: Container(
-                    color: Colors.red,
+                    color: Colors.purple,
                     height: _circleHeightTween.value,
                     width: _circleWidthTween.value,
                   ),
@@ -144,7 +144,7 @@ class _HomeScreenState extends State<HomeScreen>
                   child: CustomPaint(
                     painter: SquarePainter(
                       progress: _rect2Tween.value,
-                      color: const Color(0xff40e0b0),
+                      color: Colors.purple,
                     ),
                   ),
                 ),
@@ -156,7 +156,7 @@ class _HomeScreenState extends State<HomeScreen>
                     borderWidth: 0.0,
                     backgroundColor: Colors.transparent,
                     borderColor: Colors.transparent,
-                    waveColor: Color(0xff40e0b0),
+                    waveColor: Colors.purple,
                     progress: 100.0 * _waveProgressTween.value,
                     offsetY: _waveOffsetYTween.value,
                   ),
